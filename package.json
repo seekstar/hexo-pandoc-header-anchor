@@ -1,6 +1,6 @@
 {
   "name": "hexo-pandoc-header-anchor",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Add anchors to each header like markdown-it.",
   "main": "index.js",
   "scripts": {

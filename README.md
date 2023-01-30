@@ -38,6 +38,10 @@ pandoc:
 
 The above values are default. You may change them to customize.
 
+## LICENSE
+
+This project is licensed under the ISC License.
+
 ## Credits
 
 This project is inspired by [hexo-pandoc-tippy](https://github.com/Ritsuka314/hexo-pandoc-tippy) and [leonfancy.github.io](https://github.com/leonfancy/leonfancy.github.io)/pandocfilters/header_link.py.
