@@ -20,11 +20,12 @@ def append_anchor_to_header(elem, doc):
     if type(elem) == Header:
         side = doc.get_metadata('header_anchor_side', 'left')
         if side == 'left':
-            prepend_anchor(elem, doc)
+            elem = prepend_anchor(elem, doc)
         elif side == 'right':
-            append_anchor(elem, doc)
+            elem = append_anchor(elem, doc)
         else:
             raise ValueError('Expected: \'left\' | \'right\'. Got: \'' + side + '\'')
+        return elem
 
 def main(doc=None):
     return run_filter(append_anchor_to_header, doc=doc)
