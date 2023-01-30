@@ -1,0 +1,24 @@
+{
+  "name": "hexo-pandoc-header-anchor",
+  "version": "1.0.0",
+  "description": "Add anchors to each header like markdown-it.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/seekstar/hexo-pandoc-header-anchor.git"
+  },
+  "keywords": [
+    "hexo",
+    "pandoc",
+    "anchor"
+  ],
+  "author": "Jiansheng Qiu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/seekstar/hexo-pandoc-header-anchor/issues"
+  },
+  "homepage": "https://github.com/seekstar/hexo-pandoc-header-anchor#readme"
+}
