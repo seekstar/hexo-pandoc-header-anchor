@@ -7,12 +7,12 @@ def anchor(elem, doc):
     return Link(Str(anchor_str), url="#" + elem.identifier)
 
 def append_anchor(elem, doc):
-    elem.content.append(Str(' '))
+    elem.content.append(Space)
     elem.content.append(anchor(elem, doc))
     return elem
 
 def prepend_anchor(elem, doc):
-    elem.content.insert(0, Str(' '))
+    elem.content.insert(0, Space)
     elem.content.insert(0, anchor(elem, doc))
     return elem
 
