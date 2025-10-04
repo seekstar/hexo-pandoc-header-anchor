@@ -20,8 +20,7 @@ Add the following configurations to `_config.yml`:
 
 ```yaml
 pandoc:
-  filters:
-    - node_modules/hexo-pandoc-header-anchor/header-anchor.py
+  args: ["--filter", "./node_modules/hexo-pandoc-header-anchor/header-anchor.py"]
 ```
 
 Then `hexo clean && hexo s -g` to preview effects. `¶` is the anchor of the corresponding header. Example: <https://seekstar.github.io/2022/03/10/a-collection-of-matrix-groups/>
